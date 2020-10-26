@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 426e8ca9c721727488dcf260c2b1878c, type: 3}
-  m_Name: Cthulu
+  m_Name: Cthulhu
   m_EditorClassIdentifier: 
-  Title: Name
-  Description: Lorem Ipsum.
-  Cost: 0
+  Title: Cthulhu
+  Description: '"In his house at R''lyeh dead Cthulhu waits dreaming."'
+  Cost: 10
   CustomFrame: {fileID: 0}
   Picture: {fileID: 0}
-  LifePoints: 10
-  Strenght: 10
+  LifePoints: 5
+  Strenght: 3
