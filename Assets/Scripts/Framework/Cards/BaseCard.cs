@@ -1,15 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using NaughtyAttributes;
 
+public enum CardType
+{
+    None,
+    Monster,
+    Spell
+}
+
+[System.Serializable]
 public class BaseCard
 {
-    private Dictionary<string, int> _customProperties = new Dictionary<string, int>();
-    private string _idType = null;
-    private string _idCard = null;
-    private int _cost = 0;
-    private string _title = null;
-    private bool _hasChain = false;
+    [System.Serializable]
+    public class CustomPropertiesDict : SerializableDictionary<string, int> { };
+    public const string STREAMING_PATH = "Cards";
+    public const string STREAMING_EXTENTION = "json";
+
+
+    public string Title = null;
+    public string Description = null;
+    public int Cost = 0;
+    public string IdType = null;
+    public string IdCard = null;
+    public bool HasChain = false;
+    public CustomPropertiesDict CustomProperties = new CustomPropertiesDict();
+
+
+
+    #region SERIALIZATION
+    [Button]
+    public virtual void SaveAsJson()
+    {
+        string path = System.IO.Path.Combine(Application.streamingAssetsPath, STREAMING_PATH, Type.ToString());
+
+        System.IO.Directory.CreateDirectory(path);
+        path = System.IO.Path.Combine(path, string.Format("{0}.{1}", Title, "json"));
+        System.IO.File.WriteAllText(path,  JsonUtility.ToJson(this, true));
+        AssetDatabase.Refresh();
+
+        Debug.LogFormat("{0} Card saved at {1}", Title, path);
+    }
+    #endregion
 
     #region Events
     public virtual void OnPlayCard() { }
@@ -18,11 +52,6 @@ public class BaseCard
     #endregion
 
     #region Accesors
-    public string IdType { get => _idType; }
-    public string IdCard { get => _idCard; }
-    public int    Cost   { get => _cost; }
-    public string Title  { get => _title; }
-    public bool HasChain { get => _hasChain; }
-    public Dictionary<string, int> CustomProperties { get => _customProperties; }
+    public virtual CardType Type => CardType.None;
     #endregion
 }

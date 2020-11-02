@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class SpellCard : BaseCard
 {
-
+    public override CardType Type => CardType.Spell;
 }

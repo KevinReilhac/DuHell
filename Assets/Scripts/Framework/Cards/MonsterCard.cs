@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MonsterCard : BaseCard
 {
-    private int _healthPoints = 0;
-    private bool _hasAction = false;
+    public int HealthPoints = 0;
+    public bool HasAction = false;
 
     #region Events
     public virtual void OnEnterTerrain() { }
@@ -15,7 +15,6 @@ public class MonsterCard : BaseCard
     #endregion
 
     #region Accesor
-    public int  HealthPoints { get => _healthPoints; }
-    public bool HasAction    { get => _hasAction; }
+    public override CardType Type => CardType.Monster;
     #endregion
 }
