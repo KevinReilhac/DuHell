@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 7672e7f3659b82843b4d73ad724e11bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7571389936854583998
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_0
+  - first:
+      213: -4073492690424916731
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_1
+  - first:
+      213: 8654083073763962921
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_2
+  - first:
+      213: -732560934519653229
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_3
+  - first:
+      213: 8762197441478530377
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_4
+  - first:
+      213: 5261094298113233372
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_5
+  - first:
+      213: 732532314421956617
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_6
+  - first:
+      213: 111934064722225165
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_7
+  - first:
+      213: 2096098683809102109
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_8
+  - first:
+      213: 280045604241394628
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_9
+  - first:
+      213: -6083101507426276961
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_10
+  - first:
+      213: -660043448329588743
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_11
+  - first:
+      213: 4733979339188063088
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_12
+  - first:
+      213: 2596513300559983580
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_13
+  - first:
+      213: -5277856164278802212
+    second: hearthstone_empty_cards___shaman_by_demaretc_d8edx9e-fullview_14
+  - first:
+      213: 4672423710646258664
+    second: Heartstone_frames_0
+  - first:
+      213: -4895756329639140127
+    second: Heartstone_frames_1
+  - first:
+      213: 542082581487011062
+    second: Heartstone_frames_2
+  - first:
+      213: 6453663187233372188
+    second: Heartstone_frames_3
+  - first:
+      213: -8870575076142988396
+    second: Heartstone_frames_4
+  - first:
+      213: -5505635156467995868
+    second: Heartstone_frames_5
+  - first:
+      213: 5999829270232510765
+    second: Heartstone_frames_6
+  - first:
+      213: 5859960692766742470
+    second: Heartstone_frames_7
+  - first:
+      213: -4123944109688277844
+    second: Heartstone_frames_8
+  - first:
+      213: 6698050259056643932
+    second: Heartstone_frames_9
+  - first:
+      213: -7608332529616520406
+    second: Heartstone_frames_10
+  - first:
+      213: -9029914522300907336
+    second: Heartstone_frames_11
+  - first:
+      213: -3004943122032992302
+    second: Heartstone_frames_12
+  - first:
+      213: -5476307081556062068
+    second: Heartstone_frames_13
+  - first:
+      213: 2558762760634059153
+    second: Heartstone_frames_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heartstone_frames_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1132
+        width: 237
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebce29fb98c7d040800000000000000
+      internalID: 4672423710646258664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1132
+        width: 238
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e42df89e87ce0cb0800000000000000
+      internalID: -4895756329639140127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1132
+        width: 238
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4c57c5c3dd58700800000000000000
+      internalID: 542082581487011062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1132
+        width: 237
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c187f0fc974009950800000000000000
+      internalID: 6453663187233372188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 790
+        width: 241
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493401177f265e480800000000000000
+      internalID: -8870575076142988396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 790
+        width: 244
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ba2dbcefd0893b0800000000000000
+      internalID: -5505635156467995868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 790
+        width: 243
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21333dceeca34350800000000000000
+      internalID: 5999829270232510765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_7
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 790
+        width: 244
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c71d12e333c25150800000000000000
+      internalID: 5859960692766742470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 408
+        width: 242
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4377c8eaec4c6c0800000000000000
+      internalID: -4123944109688277844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 408
+        width: 243
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fc8ca093144fc50800000000000000
+      internalID: 6698050259056643932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 408
+        width: 243
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b782fffd5c96690800000000000000
+      internalID: -7608332529616520406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_11
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 408
+        width: 244
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b00d12a59c4fa280800000000000000
+      internalID: -9029914522300907336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 250
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df58f0c62c4c46d0800000000000000
+      internalID: -3004943122032992302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heartstone_frames_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 38
+        width: 248
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8015ea59bf3004b0800000000000000
+      internalID: -5476307081556062068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

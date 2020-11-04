@@ -19,7 +19,6 @@ public class BaseCard
     public const string STREAMING_PATH = "Cards";
     public const string STREAMING_EXTENTION = "json";
 
-
     public string Title = null;
     public string Description = null;
     public int Cost = 0;
