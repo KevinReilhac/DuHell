@@ -11,6 +11,11 @@ public enum CardType
     Spell
 }
 
+public enum CardGroup
+{
+    None
+}
+
 [System.Serializable]
 public class BaseCard
 {
@@ -22,9 +27,9 @@ public class BaseCard
     public string Title = null;
     public string Description = null;
     public int Cost = 0;
-    public string IdType = null;
     public string IdCard = null;
     public bool HasChain = false;
+    public DeckType deck = DeckType.None;
     public CustomPropertiesDict CustomProperties = new CustomPropertiesDict();
 
 
@@ -52,5 +57,6 @@ public class BaseCard
 
     #region Accesors
     public virtual CardType Type => CardType.None;
+    public virtual CardGroup Group => CardGroup.None;
     #endregion
 }

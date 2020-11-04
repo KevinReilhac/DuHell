@@ -9,9 +9,30 @@ public class MonsterCard : BaseCard
     public bool HasAction = false;
 
     #region Events
+    public override void OnPlayCard()
+    {
+        DecksManager.instance.MoveCard(this, DeckType.Board);
+    }
+
     public virtual void OnEnterTerrain() { }
-    public virtual void OnKilled() { }
-    public virtual void OnAction() { }
+
+    public virtual void OnKilled()
+    {
+        DecksManager.instance.MoveCard(this, DeckType.Graveyard);
+    }
+
+    public virtual void OnAction()
+    {
+        List<MonsterCard> cards = new List<MonsterCard>();
+
+        //SelectTarget(s)
+
+        cards.ForEach(card =>
+        {
+            card.HealthPoints -= Attack;
+        });
+    }
+
     public virtual void OnEndTurn() { }
     #endregion
 

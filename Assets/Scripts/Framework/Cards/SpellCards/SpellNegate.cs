@@ -2,11 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum DeckType
+public class SpellNegate : SpellCard
 {
-    None,
-    Deck,
-    Hand,
-    Graveyard,
-    Board
 }
