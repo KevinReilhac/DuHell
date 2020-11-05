@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : Manager<GameManager>
 {
-    public ActionStack actionQueue = new ActionStack();
+    public ActionStack actionStack = new ActionStack();
     public ActionStack.ActionType currentAction = ActionStack.ActionType.None;
 
     private Player playerTurn = Player.None;
@@ -103,7 +103,7 @@ public class GameManager : Manager<GameManager>
             BaseCard playedCard = GetPlayedCard(playerAction);
 
             if (playedCard != null)
-                actionQueue.AddAction(playedCard.OnChain, ActionStack.ActionType.Play);
+                actionStack.AddAction(playedCard.OnChain, ActionStack.ActionType.Play);
         }
     }
 
@@ -124,11 +124,11 @@ public class GameManager : Manager<GameManager>
         BaseCard playedCard = GetPlayedCard(playerTurn);
 
         if (playedCard != null)
-            actionQueue.AddAction(playedCard.OnPlayCard, ActionStack.ActionType.Play);
+            actionStack.AddAction(playedCard.OnPlayCard, ActionStack.ActionType.Play);
 
-        while (actionQueue.Count > 0)
+        while (actionStack.Count > 0)
         {
-            Action action = actionQueue.Pop();
+            Action action = actionStack.Pop();
             action();
         }
     }

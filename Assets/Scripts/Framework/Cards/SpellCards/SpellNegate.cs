@@ -6,6 +6,6 @@ public class SpellNegate : SpellCard
 {
     public override void OnPlayCard()
     {
-        GameManager.instance.actionQueue.Pop();
+        GameManager.instance.actionStack.Pop();
     }
 }

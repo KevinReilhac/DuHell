@@ -11,7 +11,7 @@ public class MonsterCard : BaseCard
     #region Events
     public override void OnPlayCard()
     {
-        GameManager.instance.actionQueue.AddAction(OnEnterTerrain, ActionStack.ActionType.EnterTerrain);
+        GameManager.instance.actionStack.AddAction(OnEnterTerrain, ActionStack.ActionType.EnterTerrain);
     }
 
     public virtual void OnEnterTerrain()

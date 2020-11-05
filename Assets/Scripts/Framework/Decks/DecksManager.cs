@@ -94,7 +94,7 @@ public class DecksManager : Manager<DecksManager>
         {
             MonsterCard monster = card as MonsterCard;
 
-            GameManager.instance.actionQueue.AddAction(monster.OnEndTurn, ActionStack.ActionType.EndTurn);
+            GameManager.instance.actionStack.AddAction(monster.OnEndTurn, ActionStack.ActionType.EndTurn);
         });
     }
 }
