@@ -4,4 +4,8 @@ using UnityEngine;
 
 public class SpellNegate : SpellCard
 {
+    public override void OnPlayCard()
+    {
+        GameManager.instance.actionQueue.Pop();
+    }
 }

@@ -11,10 +11,13 @@ public class MonsterCard : BaseCard
     #region Events
     public override void OnPlayCard()
     {
-        DecksManager.instance.MoveCard(this, DeckType.Board);
+        GameManager.instance.actionQueue.AddAction(OnEnterTerrain, ActionStack.ActionType.EnterTerrain);
     }
 
-    public virtual void OnEnterTerrain() { }
+    public virtual void OnEnterTerrain()
+    {
+        DecksManager.instance.MoveCard(this, DeckType.Board);
+    }
 
     public virtual void OnKilled()
     {

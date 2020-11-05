@@ -28,7 +28,6 @@ public class BaseCard
     public string Description = null;
     public int Cost = 0;
     public string IdCard = null;
-    public bool HasChain = false;
     public DeckType deck = DeckType.None;
     public CustomPropertiesDict CustomProperties = new CustomPropertiesDict();
 
@@ -51,7 +50,10 @@ public class BaseCard
 
     #region Events
     public virtual void OnPlayCard() { }
-    public virtual void TestChain() { }
+    public virtual bool TestChain()
+    {
+        return false;
+    }
     public virtual void OnChain() { }
     #endregion
 
